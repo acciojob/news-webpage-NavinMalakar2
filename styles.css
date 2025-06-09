@@ -1,1 +1,59 @@
 /*  your css code here. If applicable */
+/* Colors */
+body {
+  background-color: #f5f5f5;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+  background-color: #011e29;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Container layout */
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 1100px;
+}
+
+/* Shared box styles */
+.box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Latest News */
+.latest-news {
+  width: 20%;
+}
+
+.latest-news ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+/* Main Article */
+.main-article {
+  width: 50%;
+  text-align: center;
+}
+
+/* Pictorial News */
+.pictorial-news {
+  width: 20%;
+  text-align: center;
+}
+
+.pictorial-news img {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
